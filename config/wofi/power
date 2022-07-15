@@ -1,0 +1,12 @@
+width=400
+height=250
+location=center
+show=drun
+prompt=Power options..
+filter_rate=100
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=fill
+insensitive=true
+gtk_dark=true

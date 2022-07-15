@@ -1,6 +1,62 @@
 config:
   backup: true
+  banner: true
   create: true
-  dotpath: dotfiles
+  ignoreempty: false
+  dotpath: .
+  keepdot: false
+  longkey: false
+  showdiff: false
+  workdir: ~/.config/dotdrop
 dotfiles:
+  f_zshrc:
+    dst: ~/.zshrc
+    src: zshrc
+  d_cava:
+    dst: ~/.config/cava
+    src: config/cava
+  d_kitty:
+    dst: ~/.config/kitty
+    src: config/kitty
+  d_mako:
+    dst: ~/.config/mako
+    src: config/mako
+  d_neofetch:
+    dst: ~/.config/neofetch
+    src: config/neofetch
+  d_nvim:
+    dst: ~/.config/nvim
+    src: config/nvim
+  d_qutebrowser:
+    dst: ~/.config/qutebrowser
+    src: config/qutebrowser
+  d_ranger:
+    dst: ~/.config/ranger
+    src: config/ranger
+  d_sway:
+    dst: ~/.config/sway
+    src: config/sway
+  d_waybar:
+    dst: ~/.config/waybar
+    src: config/waybar
+  d_wofi:
+    dst: ~/.config/wofi
+    src: config/wofi
+  d_zathura:
+    dst: ~/.config/zathura
+    src: config/zathura
 profiles:
+  fedora:
+    dotfiles:
+    - f_zshrc
+    - d_cava
+    - d_kitty
+    - d_mako
+    - d_neofetch
+    - d_nvim
+    - d_qutebrowser
+    - d_ranger
+    - d_sway
+    - d_waybar
+    - d_wofi
+    - d_zathura

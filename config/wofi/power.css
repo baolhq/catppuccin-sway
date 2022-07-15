@@ -1,0 +1,13 @@
+@import ".config/wofi/style.css";
+
+#text {
+  font-size: 18px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+#entry,
+#entry:selected {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

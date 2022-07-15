@@ -1,0 +1,25 @@
+sort=-time
+layer=overlay
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-size=2
+border-radius=8
+icons=1
+icon-location=right
+max-icon-size=64
+default-timeout=5000
+ignore-timeout=1
+font=RobotoMono 10
+
+[urgency=low]
+border-color=#585b70
+
+[urgency=normal]
+border-color=#9399b2
+
+[urgency=high]
+border-color=#f38ba8
+default-timeout=0
+
+[app-name="Spotify"]
+invisible=1
