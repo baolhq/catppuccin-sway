@@ -7,8 +7,8 @@ My dotfiles for [Fedora](https://getfedora.org/) and [SwayWM](https://github.com
 **1**. Installation
 
 ```sh
-git clone https://github.com/baolhq/dotfiles
-cd dotfiles
+git clone https://github.com/baolhq/catppuccin-sway
+cd catppuccin-sway
 sudo ln -s ./dotdrop.sh /usr/bin/dotdrop
 ```
 
