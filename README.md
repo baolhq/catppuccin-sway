@@ -1,41 +1,39 @@
-# dotfiles
+# Catppuccin Sway
 
-My dotfiles for Fedora and Sway window manager with catppuccin color palette.
+My dotfiles for [Fedora](https://getfedora.org/) and [SwayWM](https://github.com/swaywm/sway) with [Catppuccin](https://github.com/catppuccin/catppuccin) color palette.
 
 ### Getting started
 
-1. Installation
+**1**. Installation
 
-``` sh
+```sh
 git clone https://github.com/baolhq/dotfiles
-```
-
-``` sh
 cd dotfiles
-```
-
-``` sh
 sudo ln -s ./dotdrop.sh /usr/bin/dotdrop
 ```
 
-2. Install dotfiles from this repo to your local machine
+**2**. Install dotfiles from this repo to your local machine
 
-``` sh
+```sh
 dotdrop install
 ```
 
-3. Compare dotfiles from this repo with your local machine
+**3**. Compare dotfiles from this repo with your local machine
 
-``` sh
+```sh
 dotdrop compare
 ```
 
-3. Update this repo with you local dotfiles
+**4**. Update this repo with you local dotfiles
 
-``` sh
+```sh
 dotdrop update
 ```
 
 ### Documentation
 
 More documentation can be found at [dotdrop offical document page](https://dotdrop.readthedocs.io/en/latest/).
+
+### License
+
+[MIT](https://github.com/baolhq/dotfiles/blob/main/LICENSE)
