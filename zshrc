@@ -106,4 +106,5 @@ alias remove='sudo dnf remove'
 alias clean='sudo dnf autoremove'
 alias aqua='asciiquarium'
 alias nf='neofetch'
-alias mo='~/dev/sh/markdown-oneline.sh'
+
+eval $(thefuck --alias)
