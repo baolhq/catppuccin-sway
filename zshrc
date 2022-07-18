@@ -4,9 +4,6 @@ export PATH=$HOME/bin:$HOME/go/bin:$PATH
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
-# Path to spicetify config
-export SPICE_PATH="$HOME/.config/spicetify"
-
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -35,7 +32,7 @@ ZSH_THEME="lambda"
 # zstyle ':omz:update' frequency 13
 
 # Uncomment the following line if pasting URLs and other text is messed up.
-# DISABLE_MAGIC_FUNCTIONS="true"
+DISABLE_MAGIC_FUNCTIONS="true"
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -80,6 +77,9 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
+#
+# Path to spicetify config
+export SPICE_PATH="$HOME/.config/spicetify"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
@@ -92,6 +92,9 @@ source $ZSH/oh-my-zsh.sh
 # fi
 export EDITOR='vim'
 
+# Add to path
+export PATH=$PATH:/home/baolhq/.spicetify
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
@@ -102,4 +105,5 @@ alias update='sudo dnf update'
 alias remove='sudo dnf remove'
 alias clean='sudo dnf autoremove'
 alias aqua='asciiquarium'
-export PATH=$PATH:/home/baolhq/.spicetify
+alias nf='neofetch'
+alias mo='~/dev/sh/markdown-oneline.sh'
