@@ -1,6 +1,6 @@
 # Catppuccin Sway
 
-Beautiful, minimal [catppuccin](https://github.com/catppuccin/catppuccin) inspired configurations for [Fedora](https://getfedora.org/) and [Sway](https://github.com/swaywm/sway)
+Beautiful, minimal [catppuccino](https://github.com/catppuccin/catppuccin) configurations for [Sway](https://github.com/swaywm/sway)
 
 ### Getting started
 
@@ -46,6 +46,7 @@ Here is list of all the programs used in this config
 - [waybar](https://github.com/Alexays/Waybar)
 - [wofi](https://reposcope.com/package/wofi)
 - [zathura](https://pwmt.org/projects/zathura/)
+- [grim](https://github.com/emersion/grim)
 
 ### Documentation
 
