@@ -24,6 +24,8 @@ set laststatus=2
 set scrolloff=10
 set expandtab
 set splitbelow
+set mouse=a
+set clipboard=unnamedplus
 "let loaded_matchparen = 1
 set shell=zsh
 set backupskip=/tmp/*,/private/tmp/*

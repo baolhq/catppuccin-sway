@@ -98,12 +98,12 @@ export PATH=$PATH:/home/baolhq/.spicetify
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
-alias ls='ls -l --color=auto'
-alias c='clear'
-alias install='sudo dnf install'
-alias update='sudo dnf update'
-alias remove='sudo dnf remove'
-alias clean='sudo dnf autoremove'
+alias ls='ls -l --block-size=KB --color=auto'
+alias dnfi='sudo dnf install'
+alias dnfu='sudo dnf update'
+alias dnfr='sudo dnf remove'
+alias dnfc='sudo dnf autoremove'
+alias dnfs='dnf search'
 alias aqua='asciiquarium'
 alias nf='neofetch'
 
