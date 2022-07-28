@@ -20,15 +20,15 @@ set $explorer nautilus
 font pango: RobotoMono:style=Regular 10
 
 # Window borders
-default_border pixel 1
+default_border pixel 2
 default_floating_border normal
-hide_edge_borders smart
+smart_borders on
 
 # Gaps
 gaps inner 10
 
 # Disable focus follow mouse
-focus_follows_mouse no
+# focus_follows_mouse no
 
 ### Floating window configuration
 #
