@@ -7,7 +7,7 @@ Beautiful, minimal [catppuccino](https://github.com/catppuccin/catppuccin) confi
 ```sh
 $ git clone https://github.com/baolhq/catppuccin-sway
 $ cd catppuccin-sway
-$ sudo ln -s ./dotdrop.sh /usr/bin/dotdrop
+$ sudo ln -s $HOME/git/catppuccin-sway/dotdrop.sh /usr/bin/dotdrop
 ```
 
 ### Usage

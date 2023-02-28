@@ -45,7 +45,7 @@ for_window [app_id="kitty"] resize set 800 600
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in @datadir@/backgrounds/sway/)
-output * bg ~/Pictures/Cloudsday.jpg fill
+output * bg ~/Pictures/cat.png fill
 #
 # Example configuration:
 #

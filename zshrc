@@ -106,5 +106,6 @@ alias dnfc='sudo dnf autoremove'
 alias dnfs='dnf search'
 alias aqua='asciiquarium'
 alias nf='neofetch'
+alias nv='nvim'
 
 eval $(thefuck --alias)
