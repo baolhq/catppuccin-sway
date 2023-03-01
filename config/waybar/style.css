@@ -1,13 +1,14 @@
 * {
   border-radius: 0;
   font-family: "RobotoMono Nerd Font";
-  font-size: 1em;
+  font-size: 1.05em;
   min-height: 0;
 }
 
 window#waybar {
   background: rgba(0, 0, 0, 0);
   color: #cdd6f4;
+  margin-top: 20px;
 }
 
 #workspaces {

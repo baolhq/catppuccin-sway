@@ -234,4 +234,7 @@ exec_always ~/.local/bin/stacki3
 # Mako notification
 exec_always mako
 
+# Hide away cursor after 4 secs idle, put back to the screen on mouse active
+exec hideaway 4 10000 10000 -512 -256
+
 include colors/catppuccin_mocha
